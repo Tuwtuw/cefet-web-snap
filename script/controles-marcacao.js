@@ -40,7 +40,7 @@ for (let marcacaoEl of marcacoes) {
 
 
 //Altera a marcacao atraves dos controles
-let controles = document.querySelectorAll(".controles input");
+let controles = document.querySelectorAll(".controles input, .controles textarea");
 
 function alteraMarcacao(e) {
   let marcacaoSelecionadaEl = document.querySelector(".selecionada");
